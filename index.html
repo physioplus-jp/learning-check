@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>今の自分に必要な学びチェック</title>
+<title>あなたが、いま優先して学ぶべき領域をチェックします。</title>
 <style>
   :root{
     --color-bg: #F6F5F2;
@@ -422,8 +422,8 @@
   <div class="intro" id="intro">
     <div class="intro-eyebrow">トレーナー・セラピスト向け</div>
     <h1>今の自分に必要な<br>学びをチェック。</h1>
-    <p>15の質問に答えるだけで、今の自分がどこで迷いやすいのか、何を優先して学ぶとよいのかを5つの領域から整理します。</p>
-    <p class="intro-tagline">「何を学べばいいかわからない」を、次の学びが見つかるきっかけに。</p>
+    <p>15の質問に答えるだけで、今の自分が何を優先して学ぶとよいのかを5つの領域から整理します。</p>
+    <p class="intro-tagline">「何を学べばいいかわからない」を、次に学ぶべき領域が見つかるきっかけに。</p>
     <div class="intro-meta">
       <div>
         <div class="num">15問</div>
@@ -692,7 +692,7 @@
     var html = '';
     html += '<div class="result-header">';
     html += '  <div class="result-eyebrow">診断結果</div>';
-    html += '  <h2>あなたが今、迷いを感じやすい領域が見えてきました</h2>';
+    html += '  <h2>今のあなたに必要な学習領域が見えてきました。</h2>';
     html += '</div>';
 
     // radar
@@ -731,7 +731,7 @@
     html += '<div class="card text-block">';
     html += '  <h3>回答結果から考えられる傾向</h3>';
     html += '  <p>' + comboText + '</p>';
-    html += '  <span class="sub-label">これから学ぶとよいテーマ</span>';
+    html += '  <span class="sub-label">これから学ぶと良さそうなテーマ</span>';
     html += '  <p>' + AREA_CONTENT[top1.area].theme + '<br>' + AREA_CONTENT[top2.area].theme + '</p>';
     html += '  <span class="sub-label">具体的な学習の方向性</span>';
     html += '  <p>' + AREA_CONTENT[top1.area].direction + '</p>';
