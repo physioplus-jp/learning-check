@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>あなたが、いま優先して学ぶべき領域を分析します。</title>
+<title>現場での困りごとを整理し、解決に向けた次の一歩を見つけます。</title>
 <style>
   :root{
     --color-bg: #F6F5F2;
@@ -729,11 +729,11 @@
 
     // tendency / theme / direction
     html += '<div class="card text-block">';
-    html += '  <h3>回答結果から考えられる傾向</h3>';
+    html += '  <h3>回答から見えてきた、現場での課題</h3>';
     html += '  <p>' + comboText + '</p>';
     html += '  <span class="sub-label">これから学ぶと良さそうなテーマ</span>';
     html += '  <p>' + AREA_CONTENT[top1.area].theme + '<br>' + AREA_CONTENT[top2.area].theme + '</p>';
-    html += '  <span class="sub-label">具体的な学習の方向性</span>';
+    html += '  <span class="sub-label">課題の解決に向けて取り組むこと</span>';
     html += '  <p>' + AREA_CONTENT[top1.area].direction + '</p>';
     html += '  <p>' + AREA_CONTENT[top2.area].direction + '</p>';
     html += '</div>';
@@ -741,8 +741,8 @@
     // physioplus CTA
     html += '<div class="card physio-card">';
     html += '  <img class="physio-logo" src="' + LOGO_DATA_URI + '" alt="Physioplus">';
-    html += '  <p>Physioplus（フィジオプラス）は、トレーナー・セラピストが現場で活用できる知識や考え方を、記事やオンラインプログラムで学べる学習プラットフォームです。今回の結果で気になったテーマがあれば、フィジオプラスで学びを探してみてください。</p>';
-    html += '  <a class="btn-cta" href="https://www.physioplus.jp/" target="_blank" rel="noopener">フィジオプラスで学びを探す</a>';
+    html += '  <p>Physioplus（フィジオプラスは、トレーナー・セラピストの現場での困りごとを、記事やオンラインプログラムを通じて解決に向けて支援するサービスです。今回の結果で気になった課題があれば、フィジオプラスで対応のヒントや、現場で活かせる知識・考え方を探してみてください。</p>';
+    html += '  <a class="btn-cta" href="https://www.physioplus.jp/" target="_blank" rel="noopener">フィジオプラスでできること</a>';
     html += '</div>';
 
     html += '<div class="retake"><button id="retakeBtn">もう一度チェックする</button></div>';
